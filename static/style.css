@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 35px;
+    margin-right: 40px;
+
+}
+#logo img{
+    height: 45px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color:#e70a0a;
+    padding: 13px 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 8px 20px;
+}
+#navbar li a:hover{
+    color:black;
+}
+
+#introSection{
+    padding-bottom: 150px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 50px;
+    align-items: center;
+    background: center/ cover no-repeat url("/static/bg.webp");
+    height: 450px;
+    background-color: rgb(125, 125, 192);
+} 
+#introSection div.small{
+    font-size: 40px;
+    padding: 2px;
+}
+#missionSection{
+    height: 300px;
+    background-color: white;
+    width: 67%;
+    margin: auto;
+}
+#missionSection h2{
+    font-size: 30px;
+    font-family: 'Sunflower', sans-serif;
+    text-align: center;
+    padding-top: 6px;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 27%;
+    margin: 23px 22px;
+    height: 185px;
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+}
+.card-img img{
+    height: inherit ;
+    filter: invert(1);
+}
+.card-content{
+    padding: 0 20px;          
+}
+
+.card-content p{
+    font-weight: bold;
+    text-align: center;
+} 
+
+#sponsorsSection{
+    height: 250px;
+    background-color: rgb(137 104 144);
+}
+#sponsorsSection h2{
+    font-size: 30px;
+    font-family: 'Sunflower', sans-serif;
+    text-align: center;
+    padding-top: 6px;
+} 
+#sponsors{
+    height: 191px;
+    max-width: 890px;
+    margin: 15px auto;
+}
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+#footer{
+    display: flex;
+    color: white;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-size: 25px;
+} 
